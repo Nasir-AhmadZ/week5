@@ -3,9 +3,9 @@ package ie.atu;
 public class Person {
 
     public Person() {
-        this.firstname = " ";
-        this.lastname = " ";
-        this.age = 0;
+        this.firstname = "John/Jane";
+        this.lastname = "Doe";
+        this.age = 30;
     }
 
 

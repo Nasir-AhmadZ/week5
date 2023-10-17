@@ -6,5 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Person first = new Person("Paul","Lennon",21);
         first.DisplayInfo();
+        Person second = new Person();
+        second.DisplayInfo();
         }
     }
