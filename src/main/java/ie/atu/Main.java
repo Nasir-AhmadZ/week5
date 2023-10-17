@@ -8,5 +8,8 @@ public class Main {
         first.DisplayInfo();
         Person second = new Person();
         second.DisplayInfo();
+        Person third = new Person();
+        third.getUserInput();
+        third.DisplayInfo();
         }
     }
