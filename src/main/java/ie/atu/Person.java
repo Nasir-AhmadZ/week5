@@ -1,5 +1,6 @@
 package ie.atu;
 
+import java.util.Scanner;
 public class Person {
 
     public Person() {
@@ -18,6 +19,21 @@ public class Person {
     public void DisplayInfo()
     {
         System.out.println("You entered "+firstname+" "+lastname+" "+age);
+    }
+
+    public void getUserInput()
+    {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter first name: ");
+        this.firstname = scanner.nextLine();
+
+        System.out.print("Enter last name: ");
+        this.lastname = scanner.nextLine();
+
+        System.out.print("Enter age: ");
+        this.age = scanner.nextInt();
+
     }
     String firstname;
 
