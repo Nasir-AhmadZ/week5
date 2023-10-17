@@ -5,8 +5,6 @@ package ie.atu;
 public class Main {
     public static void main(String[] args) {
         Person first = new Person("Paul","Lennon",21);
-        System.out.println("You entered "+first.firstname+" "+first.lastname+" "+first.age);
-        Person second = new Person();
-        System.out.println("You entered "+second.firstname+" "+second.lastname+" "+second.age);
+        first.DisplayInfo();
         }
     }

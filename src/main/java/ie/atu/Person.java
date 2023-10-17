@@ -15,6 +15,10 @@ public class Person {
         this.age = age;
     }
 
+    public void DisplayInfo()
+    {
+        System.out.println("You entered "+firstname+" "+lastname+" "+age);
+    }
     String firstname;
 
     String lastname;
