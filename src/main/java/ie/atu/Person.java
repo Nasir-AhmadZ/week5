@@ -18,7 +18,32 @@ public class Person {
 
     public void DisplayInfo()
     {
-        System.out.println("You entered "+firstname+" "+lastname+" "+age);
+        System.out.println("You entered "+getFirstname()+" "+getLastname()+" Age: "+getAge());
+    }
+
+    //getter and setters
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public void getUserInput()
@@ -35,9 +60,9 @@ public class Person {
         this.age = scanner.nextInt();
 
     }
-    String firstname;
+    private String firstname;
 
-    String lastname;
+    private String lastname;
 
-    int age;
+    private int age;
 }
